@@ -1,95 +1,92 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title> Q & A  </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-  </head>
-  <body>
+	<!DOCTYPE html>
+	<html lang="en-us">
+	<head>
+	<meta charset="UTF-8">
+	<title> Q & A Site </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="stylesheets/jquery.modal.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	</head>
+	<body>
+	
+	<!-- Modals; Edit with care -->
+	<div id="img1" style="display:none;">
+	
+	<h2>Ask a Question!</h2>
+	
+	<form action="//formspree.io/jachisam@wustl.edu" method="POST">
+	<div>
+	<label>First and Last Name</label>
+	<input type="text" name="Name" value="Your Name">
+	</div>
+	<div>
+	<label>Your Email</label>
+	<input type="text" name="Email" value="Your Email">
+	</div>
+	<div>
+	<label>Your Review</label>
+	<input type="text" name="Comment" value="Your Comment" size="75">
+	</div>
+	<div>
+	<input type="submit" value="Send">
+	</div>
+	<input type="hidden" name="_next" value="http://jachisam.github.io/directoryStart/" />
+	</form>
+	
+	</div>
+	
+	<div class="container">
+	
+	<section class="page-header">
+	<h1 class="project-name">Welcome to Wash U! </h1>
+	<h2 class="project-tagline"> <i> Strength in Truth </i> </h2>
+	<h2> On Campus</h2> 
+	<ul>
+	<li> Places to Eat</li>
+	<li> Libraries </li>
+	<li> Campus Map </li>
+	</ul>
+	
+	<h2> Academics</h2>
+	<ul>
+	<li> Arts & Sciences </li>
+	<li> Olin Buisiness School </li>
+	<li> School of Engineering and Applied Science </li>
+	<li> Sam Fox School of Design and Visual Arts </li>
+	</ul>
+	
+	<h2> Clubs/Activities </h2>
+	<ul>
+	<li> Clubs </li>
+	<li> Greek Life </li>
+	</ul>
+	
+	<h3> About </h3>
+	<p> Welcome to Wash U! We hope answer all of your questions and call us if you need more information about a specific topic. </p> 
+	
+	
+	
+	</section>
+	
+	<section class="main-content">
+	
+	
+	<a href="#img1" rel="modal:open" class="button"> Email Us </a>
+	</section>
+	
+	<footer class="site-footer">
+	<hr>
+	<p> Jordie Chisam © 2016 </p>
+	</footer>
+	
+	<!-- JavaScript; Do not edit below -->
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/jquery.modal.min.js"></script>
+	
+	</div>
+	</body>
+	</html>
+	
 
-    <!-- Modals; Edit with care -->
-    <div id="img1" style="display:none;">
-
-
-    <div class="container">
-
-      <section class="page-header">
-        <h1 class="project-name">Welcome to Washington University in St. Louis! </h1>
-        <h2 class="project-tagline"> <i> Per Veritatem Vis </i> </h2>
-        <h2> Home Page</h2> 
-        <ul>
-          <li> Pictures of WashU and captions</li>
-          <li> brookings </li>
-          <li> Campus Map </li>
-          <li> Student Activities </li>
-        </ul>
-        
-        <h2>About</h2>
-        <ul>
-          <li> History </li>
-          <li> WashU's Reputation </li>
-         
-        </ul>
-        
-        <h2> Welcome New Students! </h2>
-       <ul>
-         <li>Housing <li>different houses and characteristics</li></li>
-        <li> Freshmen <li>things they should know </li></li>
-        <li> Transfer Students<li>things they should know </li></li>
-        <li> International Students <li>things they should know </li> </li>
-       </ul>
-       
-       <h2> What to do On Campus and Off Campus </h2>
-       <ul>
-         <li>On Campus <li>Activities</li><li>Clubs</li><li>Events/li></li>
-        <li> Off Campus <li>Restaurants </li><li>Renting Cars </li><li>Sight Seeing </li></li>
-
-       </ul>
-       
-        <h3> Contacts </h3>
-         
-      <form action="//formspree.io/kymn4875@gmail.com" method="POST">
-        <div>
-            <label>First and Last Name</label>
-            <input type="text" name="Name" value="Your Name">
-          </div>
-          <div>
-            <label>Your Email</label>
-            <input type="text" name="Email" value="Your Email">
-          </div>
-          <div>
-            <label>Your Question</label>
-            <input type="text" name="Comment" value="Your Comment" size="75">
-          </div>
-          <div>
-            <input type="submit" value="Send">
-          </div>
-          <input type="hidden" name="_next" value="http://jachisam.github.io/directoryStart/" />
-      </form>
-
-    </div>
-        
-        
-
-      </section>
-
-      <section class="main-content">
-      
-    
-      <a href="#img1" rel="modal:open" class="button"> Email Us </a>
-      </section>
-
-      <footer class="site-footer">
-        <hr>
-        <p> Jamie Kim ©  2016 </p>
-      </footer>
-       
-
-
-    </div>
-  </body>
-</html>
